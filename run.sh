@@ -1,1 +1,1 @@
-chromium-browser --new-window default.html & disown
+chromium-browser --new-window default.html &
