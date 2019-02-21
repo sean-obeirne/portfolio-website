@@ -1,12 +1,23 @@
+*{
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+body{
+    background: green;
+    margin: auto;
+}
+
 #container{
     background: blue;
-/*    margin: auto;
-    width: 80%*/
+    margin: auto;
 }
 
 #top{
+    /*position: fixed;
+    top: 0;
+    width: inherit;
+    margin: auto;*/
     background: purple;
-    width:100%;
     height: 80px;
 }
 
@@ -40,7 +51,7 @@ h1{
     float: left;
     text-align: center;
     width: 25%;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 80px;
     color: #000;
     background-color: #d66;
@@ -50,25 +61,31 @@ h1{
     background-color: #c55;
 }
 
+.bar a:hover{
+    background-color: #b55;
+}
+
 .nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-li{
-    display: inline;
-
-}
-
-ul{
-}
-
-#body{
+#content{
     clear: both;
     background: yellow;
+    height: 2000px;
+    width: 85%;
+    margin: auto;
+    margin-top:40px;
+    margin-bottom: 120px;
 }
 
 #footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
     background: orange;
+    height:80px;
 }
