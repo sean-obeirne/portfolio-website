@@ -9,16 +9,16 @@ body{
 
 #container{
     background: blue;
-    margin: auto;
 }
 
 #top{
+    background: purple;
+    height: 80px;
+    /**uncomment this to stick nav bar to top of page**/
     /*position: fixed;
     top: 0;
     width: inherit;
     margin: auto;*/
-    background: purple;
-    height: 80px;
 }
 
 .name{
