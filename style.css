@@ -3,22 +3,12 @@
 }
 
 body{
-    background: green;
+    background: #77738A;
     margin: auto;
 }
 
 #container{
-    background: blue;
-}
-
-#top{
-    background: purple;
-    height: 80px;
-    /**uncomment this to stick nav bar to top of page**/
-    /*position: fixed;
-    top: 0;
-    width: inherit;
-    margin: auto;*/
+    background: #77738A;
 }
 
 .name{
@@ -28,22 +18,35 @@ body{
     height: inherit;
     padding-left: 2.5%;
     font-size: 18px;
-    background-color: red;
+}
+
+.name a{
+    color: #000;
 }
 
 a{
     text-decoration: none;
+    color: #333;
 }
 
 h1{
     font-size: 32;
-    color: purple;
+    color: black;
+}
+
+#top{
+    background: #5F5270;
+    height: 80px;
+    /**uncomment this to stick nav bar to top of page**/
+    /*position: fixed;
+    top: 0;
+    width: inherit;
+    margin: auto;*/
 }
 
 .bar{
     height: inherit;
     float: right;
-    background: pink;
     width:60%;
 }
 
@@ -54,15 +57,14 @@ h1{
     font-size: 24px;
     line-height: 80px;
     color: #000;
-    background-color: #d66;
 }
 
 .bar a.active{
-    background-color: #c55;
+    background-color: #685a78;
 }
 
 .bar a:hover{
-    background-color: #b55;
+    background-color: #6F6381;
 }
 
 .nav{
@@ -73,19 +75,21 @@ h1{
 
 #content{
     clear: both;
-    background: yellow;
+    background: #8293A3;
     height: 2000px;
     width: 85%;
     margin: auto;
     margin-top:40px;
     margin-bottom: 120px;
+    padding-top: 20px;
 }
 
 #footer{
+    background: #9dbbad;
     position: fixed;
     bottom: 0;
     width: 100%;
     margin: auto;
-    background: orange;
     height:80px;
+    text-align: center;
 }
